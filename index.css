@@ -1,0 +1,544 @@
+/* General Styles */
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #ffffff;
+}
+.wrapper{
+    padding-left:10px;
+    padding-right:10px;
+    box-sizing:border-box;
+}
+
+/* Header Styles */
+header {
+    background-color: #1a1a1a;
+    padding: 10px 2px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    text-align: left;
+    width:100%;
+    box-sizing:border-box;
+}
+header h1,header nav{
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.navbar {
+    text-align: left;
+}
+
+.navbar .logo {
+    font-weight: 2.5rem;
+    padding-bottom:10px;
+}
+
+.navbar nav a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-weight: 1rem;
+}
+
+.navbar nav a:hover {
+    color: #ff5252;
+}
+.navbar .nav{
+    padding-right:20px;
+    padding-left:20px;
+}
+
+/* Hero Section */
+.hero {
+    text-align: left;
+    padding: 50px 1px;
+}
+
+.highlight {
+    color: #ff5252;
+    font-weight: bold;
+}
+
+/* About Section */
+#about {
+    padding: 100px 20px 60px;  /* Added padding-top to avoid header overlap */
+    text-align: center;
+    background-color: #1a1a1a;
+    over-flow:hidden;
+}
+
+.about {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ff5252;
+    padding-bottom: 30px;
+    text-align:center;
+    margin-top:30px;
+}
+
+.details {
+    font-size: 1.2rem;
+    margin: 20px 0;
+    color: #ffffff;
+    line-height: 1.5;
+}
+.word{
+    font-size:4rem;
+    font-weight:bold;
+}
+.Explore {
+    text-align: center;
+    margin-top: 50px;
+    margin-right:50px;
+    margin-left:50px;
+    font-size: 1.0rem;
+    font-weight: bold;
+    width:fit-content;
+}
+
+.Explore a {
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    background-color: #ff5252;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e64545;
+}
+
+
+.
+/* Hero Section Styling */
+.Hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+.appratus {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the list items */
+    margin-top: 30px;
+    margin-bottom:30px;
+    gap: 10px; /* Adds spacing between list items */
+    text-align: center;
+    height:60px;
+}
+
+.appratus li {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    align-items: center; /* Centers content vertically */
+    justify-content: center; /* Centers content horizontally */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 100px; /* Adjust width if necessary */
+    max-width: 150px; /* Optional: Add a max width */
+    height:30px;
+}
+
+.appratus li p {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    word-wrap: break-word; /* Ensures text wraps inside the item */
+}
+
+.appratus li:hover {
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+.Hero-section img {
+    width: 340px;
+    height: 400px;
+    display: block;
+    border-radius: 10px; /* Reduced the radius for a less bold curve */
+    background: #e0e0e0;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2), -2px -2px 8px rgba(255, 255, 255, 0.4); /* Softer shadow for less blur */
+    padding: 10px 20px;
+    margin: 0;
+}
+
+.Hero-section .text {
+    font-weight: bold;
+    font-size: 2.0rem;
+    text-align:left;
+    padding-right:90px;
+    padding-top:30px;
+}
+.Hero-section h3{
+    margin-top:20px;
+    margin-bottom:5px;
+    padding-left:5px;
+}
+
+.Hero-section p {
+    text-align:left;
+    padding-left:5px;
+}
+.click {
+  color: #ffffff; /* White text */
+/* General Styles */
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #ffffff;
+}
+.wrapper{
+    padding-left:10px;
+    padding-right:10px;
+    box-sizing:border-box;
+}
+
+/* Header Styles */
+header {
+    background-color: #1a1a1a;
+    padding: 10px 2px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    text-align: left;
+    width:100%;
+    box-sizing:border-box;
+}
+header h1,header nav{
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.navbar {
+    text-align: left;
+}
+
+.navbar .logo {
+    font-weight: 2.5rem;
+    padding-bottom:10px;
+}
+
+.navbar nav a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-weight: 1rem;
+}
+
+.navbar nav a:hover {
+    color: #ff5252;
+}
+.navbar .nav{
+    padding-right:20px;
+    padding-left:20px;
+}
+
+/* Hero Section */
+.hero {
+    text-align: left;
+    padding: 50px 1px;
+}
+
+.highlight {
+    color: #ff5252;
+    font-weight: bold;
+}
+
+/* About Section */
+#about {
+    padding: 100px 20px 60px;  /* Added padding-top to avoid header overlap */
+    text-align: center;
+    background-color: #1a1a1a;
+    over-flow:hidden;
+}
+
+.about {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ff5252;
+    padding-bottom: 30px;
+    text-align:center;
+    margin-top:30px;
+}
+
+.details {
+    font-size: 1.2rem;
+    margin: 20px 0;
+    color: #ffffff;
+    line-height: 1.5;
+}
+.word{
+    font-size:4rem;
+    font-weight:bold;
+}
+.Explore {
+    text-align: center;
+    margin-top: 50px;
+    margin-right:50px;
+    margin-left:50px;
+    font-size: 1.0rem;
+    font-weight: bold;
+    width:fit-content;
+}
+
+.Explore a {
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    background-color: #ff5252;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e64545;
+}
+
+
+.
+/* Hero Section Styling */
+.Hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+.appratus {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the list items */
+    margin-top: 30px;
+    margin-bottom:30px;
+    gap: 10px; /* Adds spacing between list items */
+    text-align: center;
+    height:60px;
+}
+
+.appratus li {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    align-items: center; /* Centers content vertically */
+    justify-content: center; /* Centers content horizontally */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 100px; /* Adjust width if necessary */
+    max-width: 150px; /* Optional: Add a max width */
+    height:30px;
+}
+
+.appratus li p {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    word-wrap: break-word; /* Ensures text wraps inside the item */
+}
+
+.appratus li:hover {
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+.Hero-section img {
+    width: 340px;
+    height: 400px;
+    display: block;
+    border-radius: 10px; /* Reduced the radius for a less bold curve */
+    background: #e0e0e0;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2), -2px -2px 8px rgba(255, 255, 255, 0.4); /* Softer shadow for less blur */
+    padding: 10px 20px;
+    margin: 0;
+}
+
+.Hero-section .text {
+    font-weight: bold;
+    font-size: 2.0rem;
+    text-align:left;
+    padding-right:90px;
+    padding-top:30px;
+}
+.Hero-section h3{
+    margin-top:20px;
+    margin-bottom:5px;
+    padding-left:5px;
+}
+
+.Hero-section p {
+    text-align:left;
+    padding-left:5px;
+}
+.click {
+  color: #ffffff; /* White text */
+  background-color: #ff5252; /* Background color */
+  text-decoration: none; /* Remove underline */
+  padding: 12px 24px; /* Adjust height and width */
+  border-radius: 20px; /* Smooth border radius */
+  display: inline-block; /* Ensure block-like appearance */
+  font-size: 1rem; /* Adjust text size */
+  margin-top: 20px; /* Optional spacing from other elements */
+  margin-bottom:20px;
+  position: relative; /* To help with alignment */
+  left: 0; /* Align to the left */
+}
+.Hero-section .heeros {
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+/* Footer Styles */
+.footer-content {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+.tap {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #ff5252;
+    font-weight: bold;
+    padding-top:20px;
+}
+.tap .osas{
+    padding-top:10px:
+    padding-bottom:10px;
+}
+.footer-content p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.contact-btn {
+    background-color: #ff5252;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top:10px;
+}
+
+.footer-content .osas {
+    margin-top:10px;
+}
+
+.contact-btn a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact-btn:hover {
+    background-color: #45a049;
+}
+
+/* Media Queries */
+@media (min-width: 1024px) {
+    .hero {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-align: left;
+    }
+
+    .hero h2, .hero p, .hero button {
+        flex: 1;
+        margin: 0 20px;
+    }
+}￼Enter  background-color: #ff5252; /* Background color */
+  text-decoration: none; /* Remove underline */
+  padding: 12px 24px; /* Adjust height and width */
+  border-radius: 20px; /* Smooth border radius */
+  display: inline-block; /* Ensure block-like appearance */
+  font-size: 1rem; /* Adjust text size */
+  margin-top: 20px; /* Optional spacing from other elements */
+  margin-bottom:20px;
+  position: relative; /* To help with alignment */
+  left: 0; /* Align to the left */
+}
+.Hero-section .heeros {
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+/* Footer Styles */
+.footer-content {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+.tap {
+nt-size: 2em;
+    margin-bottom: 10px;
+    color: #ff5252;
+    font-weight: bold;
+    padding-top:20px;
+}
+.tap .osas{
+    padding-top:10px:
+    padding-bottom:10px;
+}
+.footer-content p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.contact-btn {
+    background-color: #ff5252;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top:10px;
+}
+
