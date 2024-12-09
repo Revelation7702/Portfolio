@@ -485,7 +485,8 @@ button:hover {
         justify-content: space-between;
         text-align: left;
     }
-    h2, .hero p, .hero button {
+
+    .hero h2, .hero p, .hero button {
         flex: 1;
         margin: 0 20px;
     }
